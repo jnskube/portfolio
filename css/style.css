@@ -1,0 +1,291 @@
+/*stylesheet*/
+
+body {
+	margin: 0;
+	background-image: url("../images/leaf-pattern3.png");
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+}
+
+h1, h2, h3, h4, p {
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+h1, h2 {
+	font-weight: 200;
+}
+
+#wrapper{
+	margin: 2em auto;
+	max-width: 1200px;
+	padding:0 2em;
+}
+
+#main {
+	background: #a7c493;
+	margin: 2em;
+	padding: 2em;
+
+}
+
+#sidebar {
+	background: #a7c493;
+}
+
+#logo {
+	padding: 2em 0;
+}
+
+#logo h1 {
+	margin: 0;
+}
+
+#logo img, .item img {
+	width: 100%;
+	height: auto;
+}
+
+
+.header {
+	display: block;
+    margin-left: 0;
+    margin-right: auto;
+    width: 60%;
+    position: relative; 
+
+}
+
+#bio {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	grid-gap: 0;
+
+}
+
+#bio .grid {
+	grid-gap: 2em;
+	padding: 0;
+
+}
+
+#bio .grid img {
+	width: 100%;
+	height: auto;
+}
+.item span {
+	font-weight: 800;
+}
+
+.item img {
+	margin-bottom: 1em;
+}
+
+#content {
+	background: #a7c493;
+	position: relative;
+	
+}
+
+#nav li a{
+	color: #fff;
+	transition: all .3s ease-in-out;
+	text-decoration: none;
+}
+
+#nav li a:hover {
+	color: green;
+	text-decoration: none;
+	background: white;
+}
+
+.container1 {
+	display: block;
+	align-content: ;
+	margin-left: 0;
+	margin-top:0;
+}
+
+.container2 {
+	display: block;
+	align-content: ;
+	margin-right: 0;
+	margin-top:0;
+}
+
+.code {
+	align-content: space-around;
+}
+
+#exquisite {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	grid-gap: 0;
+
+}
+
+#exquisite .grid {
+	grid-gap: 0;
+	padding: 0;
+
+}
+
+#exquisite .grid img {
+	margin: 0;
+	padding: 0;
+	display: block;
+	
+}
+
+#projects {
+	margin-bottom: 2em;
+}
+
+
+#projects .grid-item {
+	color: white;
+	position: relative;
+
+}
+
+#projects .grid-item img {
+	display:block;
+	width:100%;
+	height:auto;
+
+}
+
+#projects .grid-item .overlay {
+	opacity: 0;
+	transition: .3s ease-in-out;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	display:flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#projects .grid-item:hover .overlay {
+	opacity: 1;
+
+}
+
+#projects .grid-item .overlay .project-title p {
+
+	margin-left: 2rem;
+	margin-right: 2rem;
+
+}
+
+.center{
+  padding-top: 40px;
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
+.center-white{
+  padding-top: 40px;
+  padding-right: 22px;
+  padding-left: 22px;
+  color:white;
+}
+
+.middle{
+  text-align: center;
+  padding-top: 40px;
+}
+
+.middle-white{
+  text-align: center;
+  padding-top: 40px;
+  color:white;
+}
+
+.low{
+  text-align: center;
+  padding-top: 250px;
+
+}
+
+.wrapper {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#game-holder {
+  display: flex;
+  /*align-items: center;*/
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#game {
+  position: relative;
+  background-color:black;
+  background-size: 100%;
+  width:750px;
+  height:560px;
+  padding:0em;
+  margin:0;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.left-button {
+  position: absolute;
+  padding: 14px;
+  background-color:white;
+  text-decoration: none;
+  font-size: 14px;
+  color:black;
+  left: 30px;
+  top: 500px;
+}
+
+.right-button {
+  position: absolute;
+  padding: 14px;
+  background-color:white;
+  text-decoration: none;
+  font-size: 14px;
+  color:black;
+  right: 30px;
+  top: 500px;
+}
+
+.centered-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 14px;
+  background-color:white;
+  text-decoration: none;
+  font-size: 14px;
+  color:black;
+  top: 500px;
+}
+
+
+@media (max-width: 699px) {
+
+	#wrapper {
+		margin: 0em auto;
+	}
+	#main {
+	margin: 1em;
+	padding: 0em;
+	
+}
+}
